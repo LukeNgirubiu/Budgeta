@@ -1,5 +1,5 @@
 ### Budgeta
-Budgeta is an appication that provides for personal budgeting, cash flow transaction and credits. The following is what is offered by budgeta
+Budgeta is an appication that majorly provides personal budgeting, cash recording and analytics. The following is what is offered by budgeta
 1. Creating budgets and executing them.
 2. Recording personal credits (From you and to you from lenders).
 3. Recording personal cash revenues and withdrawals.
