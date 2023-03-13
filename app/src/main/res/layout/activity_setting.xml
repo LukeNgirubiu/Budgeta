@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context=".Setting">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_color">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+            <ImageButton
+                android:id="@+id/back_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/back_icon_btn"
+                android:background="@color/app_color"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:fontFamily="@font/asap_2"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Settings"
+                />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/currency_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Currency Symbol/ Initial"
+                android:fontFamily="@font/asap_1"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                />
+            <EditText
+                android:id="@+id/currency"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:hint="eg $, EURO, RUPEE  Ksh, Tsh"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/edittext_solid"
+                />
+
+            <TextView
+                android:id="@+id/currency_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/error"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                />
+
+
+            <TextView
+                android:id="@+id/monthly_limit_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Monthly Limit"
+                android:textColor="@color/black"
+                android:fontFamily="@font/asap_2"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                />
+            <EditText
+                android:id="@+id/monthly_limit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:inputType="numberSigned"
+                android:textSize="20dp"
+                android:hint="200"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingStart="10dp"
+                android:background="@drawable/edittext_solid"
+                />
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/allow_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/currency_error"
+                android:text="Allow reminders?"
+                android:fontFamily="@font/asap_1"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="6dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Cash record transactions to show"
+                android:textColor="@color/black"
+                android:fontFamily="@font/asap_2"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                />
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/trans_Group"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/cash_show_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    />
+                <RadioButton android:id="@+id/cash_show_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    />
+                <RadioButton android:id="@+id/cash_show_30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"
+                    />
+            </RadioGroup>
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/budget_archive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/currency_error"
+                android:text="Archive budget after expire?"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="6dp"
+                android:layout_marginBottom="15dp"
+                />
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/budgetArchiveGroup">
+                <RadioButton android:id="@+id/budgetDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day"
+                    />
+                <RadioButton android:id="@+id/budgetWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week"
+                    />
+                <RadioButton android:id="@+id/budgetMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Month"
+                    />
+            </RadioGroup>
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/credit_archive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Archive credits after expire?"
+                android:textSize="20dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="6dp"
+                android:fontFamily="@font/asap_1"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"
+                />
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/creditBudgetGroup">
+                <RadioButton android:id="@+id/creditHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hour"
+                    />
+                <RadioButton android:id="@+id/creditDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day"
+                    />
+                <RadioButton android:id="@+id/creditWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week"
+                    />
+            </RadioGroup>
+            <Button
+                android:id="@+id/continue_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Continue"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

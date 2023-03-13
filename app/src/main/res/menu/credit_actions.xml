@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/credit_update"
+        android:title="Update"
+        app:showAsAction="always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/repay"
+        android:title="Refunds"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/text"
+        android:title="Send SMS"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/call"
+        android:title="Make call"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/credit_delete"
+        android:title="Delete"
+        app:showAsAction="always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/credit_archive"
+        android:title="Archive"
+        app:showAsAction="always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/credit_date"
+        android:title="Change Date"
+        app:showAsAction="always"
+        android:visible="false"/>
+</menu>

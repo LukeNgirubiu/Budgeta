@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Budgeta</string>
+    <string name="slogan">Your personal accountant of all times</string>
+    <string name="budget_st">No budget is added yet</string>
+    <string name="budget_item">Budget items not added yet</string>
+    <string name="estimate_explain">These are budgets plans that can be created and be used by pressing the tick on each item of the respective budget</string>
+    <string name="credits_explain">You can also record debts that people owe you as well as those you owe your creditors, you can also record gradual payment of the same.</string>
+    <string name="cash_explain">This explains everything relating to the cash transactions ie deposits, credits and budget spending</string>
+    <string name="analytics">Provides graphical representations for cash flows  as well as credits</string>
+    <string name="explain_reminder">Provides budgets that are about to expire in 24 hours time and also credits whose settlement deadline is in 24 hours time</string>
+    <string name="help_estimate">
+        Estimates in budgeta are based on periods of time.
+        Budgets are created to last 1 week, 30 or 31 days, entire year or your can have your own timelines by pressing on Arising above.
+        On pressing to any of the card buttons, you get a screen providing you with a list of all budgets if any in the respective category.\n
+        You can get more on budgets by first pressing on menu (three bar icon on the top right) and then Budgets on the popup menu.
+    </string>
+    <string name="help_funds">
+        Pressing on balance you get an account on how you have received and spent cash.
+        This include but not limited to; items bought from the budgets, cash recorded as deposit, withdrawals, cash given out as receivables and cash received as debt.\n
+        You can get more on Cash by first pressing on menu (three bar icon on the top right) and then Cash on the popup menu.
+    </string>
+    <string name="help_credits">
+        For credit you are provided with a list of names of people who owes money as well as those who are yet to receive dept settlement from you.\n
+        You can get more on Credits by first pressing on menu (three bar icon on the top right) and then Credits on the popup menu.
+    </string>
+    <string name="help_graph">
+        Provides you with graphs and text summarising both cash and credit based on months and days.
+        You can get more on Analytics by first pressing on menu (three bar icon on the top right) and then Graphs on the popup menu.
+    </string>
+    <string name="budgets_main_sn">
+      Budget gives a view of all budgets available depending on the category you choose on the home screen. The screen above is provided once you click on any budget category on the home screen.
+        A single budget item in the budget list provides you with budget name, description,number of items for the budget, expiry date,actions button and Gross total of the items added under the budget.\n To get to budget item screen you can Long press anywhere
+        on the budget or press on Action and then choose items.
+    </string>
+    <string name="budget_action">
+        On pressing the Action button you can view budget items, Update the budget or delete, get csv for the items, and you can also share a csv of the budget items.\n The colors of the Action Button indicate the status of the budget. Theme color indicate that the budget has just been created and none of it\'s item has been ticked for spending.\n
+        Maroon indicate that the budget has expired and therefore not operation, Light green indicate that the budget is ongoing (Some items have been purchased). Dark green on the other hand indicate that all items in the budget have been bought on but the budget is yet to expire.
+    </string>
+    <string name="budget_addition">
+        In case you want to add a budget item, you do so by pressing on the float button found on the right bottom of the budgets list screen.\n
+        You will be presented with the screen above. The first two fields are common to any category of budget you may think to create. The rest two are provided to you in case of an arising budget where you can specify your own timelines for the budget.
+        For the other categories the timelines are calculated based on the category of the budgets.\n
+        You are required to provide the name and some explanation on the details field describing the budget.
+    </string>
+    <string name="budgets_ls">
+        Long pressing on a budget card or pressing on Action Button, then choosing items on the pop up get\'s you to the budget items.\n
+        If there is none you can create some by pressing on the floating button on the bottom right.You will be presented with a screen to create a budget item. This is discussed in the next screenshot.\n
+        On each item as presented above there are features, most importantly is the tick button on top right of each item card.\n It\'s red if cash is not yet spent on the item, green if cash has already been spent on the item and not pressable if the budget has already expired.\n You tick on an item by either Long pressing on anywhere on the item card or by pressing on the red tick and then pressing on ok on the dialogue that pops up.\n
+        Other options available for a none ticked items include update and delete. Otherwise Action button is unavailable for ticked items
+    </string>
+    <string name="budget_item_add">
+        On this screen the app requires you to provide a name of the item, unit of measure for services if no name fits you can just type Number or Item, Amount/Quantity is the frequency/number of the units of the item.
+    </string>
+    <string name="credits_des">
+        The screen below provides you with a list of credits (Both receivables and payables). You can toggle between the two lists categories by pressing on either of the two options provided by the context menu button (Three dots on the right of toolbar ).\n The title provides you with the current credit list. Payables are credits that you owe organisations or individual people while receivables are credits that others owes\' you.
+        The floating button on the bottom right takes you to new a credit creation screen depending on which credit screen you are on.
+        Each credit item on the list has an Action button which on press provides the following options;\n 1. Refunds when pressed takes you to a list of refunds made with respect to the credit.\n
+        2. Make call enables you to contact the debtor or creditor.\n
+        3. Send text - Offers you with a dialog which has contact and message pre-populated on fields.  The contents of the fields are editable to your desires.\n
+        4. Update- Enables you to update the credit. This screen looks the same as Record credit only that the fields have got the data filled on which you can edit.\n
+        5. Cancel - Enables you to cancel a credit. Canceled credits are not visible afterwards\n
+        NB option 3 and 4 are only available if no refund transaction on the respective credit has been made.
+    </string>
+    <string name="refund_follow">
+        This view it\'s main purpose is to enable you record refund on credit cash. Additionally, it gives you a follow on how you have refunded, from the most recent to the earliest.
+        The amount of refund is recorded on Update debt/credit field. If you want to settle the entire amount once, you can record it. Otherwise you can record gradually until the credit is settled.
+    </string>
+    <string name="credit_add_update">
+       The details should be provided as entered above. Name is the source of the credit for payables and receiver for receivables. You provide some information on details probably the reason for the credit or any other information you may find necessary. Amount is the value while date due is the date expected to receive back or pay back.
+    </string>
+    <string name="cash_follow">
+        This screen provides you with;\n
+        1.) On the menu, you can press on deposits taking you to another screen where you can record deposits and view a list of deposits made before,you can press on withdrawal taking you to a withdraw screen which offers similar features as deposits only that there you withdraw, then you can check balance, get spreadsheet and finally get to help .\n
+        2.) A list of cash follow. All transactions involving cash are shown on this list including deposits, withdrawals, spending on budget items and credits. Each item on the list provides name of the transaction, date, whether the transaction reduced cash or increased and finally category of the transaction.
+    </string>
+    <string name="cash_deposit_ls">
+        This screen provides you with a list of deposit transactions and a button (On bottom right) which on pressing, you can get to a screen where you can record cash deposits as shown below.
+    </string>
+    <string name="deposit_adding">
+        You provide some information on details probably the source of the cash or any other information you may find necessary. For the amount you just type cash value.
+    </string>
+    <string name="cash_withdraw_ls">
+              This screen is similar to that of deposits.It provides you with a list of withdrawal transactions and a button which on pressing, you can get to next screen where you record cash withdrawals as shown below.
+    </string>
+    <string name="withdraw_adding">
+        You provide some information on details probably the reason of the withdrawal or any other information you may find necessary. For the amount you just type cash amount in digits.
+    </string>
+    <string name="revenue_expense">
+        Here you are provide with;\n
+        1.)Dash board where on the first row is about revenue and expenses for the current month. Revenue in this context means cash deposited while expense is about cash spent on budget items and withdrawals.\n
+        If you press on the first row you get a graph providing expenses  (first column) and revenues (second column) per day in the current month
+        while for the second row provides you with a graph of expenses (first column) and revenues (second column) per month in the current year.\n
+        2.) The graph of the current year comparing expenses verses revenue in every month.
+    </string>
+    <string name="credits_graph_ds">
+        The graphical view offers the following.\n
+       1.) Dashboard which for its first row provides payables first for the current month then for the current year while for the second row it\'s about receivable first for the month then for the year.\n
+          The dashboard items are possible to press taking you to the respective graph\n
+       2.) A comparison graph comparing Receivable against Payables for an the entire year per month.
+   </string>
+</resources>

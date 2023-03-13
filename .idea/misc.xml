@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1455" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/delete_items.xml" value="0.147" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/home_body.xml" value="0.1945" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1455" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/main_menu.xml" value="0.1945" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/month_budget_icon.xml" value="0.1945" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/task_done.xml" value="0.1945" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/tick_yes.xml" value="0.136" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/ticked_yes.xml" value="0.136" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/drawable/week_budget_icon.xml" value="0.1945" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_abouts.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_add_budget.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_add_credit.xml" value="0.1" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_add_update_b_item.xml" value="0.14791666666666667" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_analytic_cash.xml" value="0.13697916666666668" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_analytic_credit.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_budget_archive.xml" value="0.18854166666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_budget_archive_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_budget_help.xml" value="0.1" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_budget_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_budgets.xml" value="0.18854166666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_cash.xml" value="0.1" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_cash_help.xml" value="0.190625" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_credit_archive.xml" value="0.22" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_credit_help.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_credit_list.xml" value="0.1" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_credits.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_deposit.xml" value="0.17074275362318841" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_graph_help.xml" value="0.18" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_help.xml" value="0.12" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_home2.xml" value="0.13697916666666668" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_present.xml" value="0.12708333333333333" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/activity_with_draw.xml" value="0.17074275362318841" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/budget_item.xml" value="0.18" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/budget_view_adpter.xml" value="0.25" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/cash_card_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/credit_adapter_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/credit_transaction.xml" value="0.13697916666666668" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/customtoolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/share_list.xml" value="0.203125" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/sms_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/tool_bar_menu.xml" value="0.17074275362318841" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/layout/toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/budget_item_actions.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/budget_pop_action.xml" value="0.121875" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/cash_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/cashes.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/credit_actions.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/credit_menus.xml" value="0.2" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/help_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/menu/home_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/projects/Android/Budgeta/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

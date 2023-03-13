@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/weak_grey"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<TextView
+    android:id="@+id/phone_number_label"
+    android:text="From"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/asap_2"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/cash_color"
+    android:layout_marginBottom="7dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+
+    />
+<EditText
+    android:id="@+id/from_name"
+    android:layout_width="0dp"
+    app:layout_constraintWidth_percent="0.8"
+    android:layout_height="40dp"
+    android:maxLines="1"
+    android:maxLength="14"
+    android:textSize="23sp"
+    android:inputType="textPersonName"
+    android:background="@drawable/edittext_solid"
+    android:layout_marginLeft="30dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/phone_number_label"
+    android:padding="5dp"
+    android:layout_marginTop="5dp"
+    />
+<TextView
+    android:id="@+id/from_name_error"
+    android:text="Phone number required"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/asap_2"
+    android:textSize="20sp"
+    android:textColor="@color/error"
+    android:layout_marginBottom="7dp"
+    app:layout_constraintTop_toBottomOf="@+id/from_name"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginLeft="30dp"
+    android:textStyle="italic"
+    android:visibility="gone"
+    />
+<TextView
+    android:id="@+id/names_label"
+    android:text="Names"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/asap_2"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginLeft="30dp"
+    android:textColor="@color/cash_color"
+    app:layout_constraintTop_toBottomOf="@+id/from_name_error"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginTop="10dp"
+    />
+    <TextView
+        android:text="(Optional)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/asap_2"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/from_name_error"
+        app:layout_constraintLeft_toRightOf="@+id/names_label"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        />
+<EditText
+    android:id="@+id/names_list"
+    android:layout_width="0dp"
+    app:layout_constraintWidth_percent="0.8"
+    app:layout_constraintHeight_min="75dp"
+    android:layout_height="wrap_content"
+    android:maxLength="170"
+    android:padding="5dp"
+    android:hint="Comma seperated eg John, Kelvin, Jane"
+    android:layout_marginTop="7dp"
+    app:layout_constraintTop_toBottomOf="@+id/names_label"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:inputType="textAutoComplete|textMultiLine"
+    android:background="@drawable/message_edit_txt"
+    />
+<Button
+    android:id="@+id/send"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/names_list"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:textColor="@color/white"
+    android:text="Continue"
+    android:backgroundTint="@color/cash_color"
+    android:textStyle="bold"
+    android:fontFamily="@font/asap_1"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="35dp"
+
+    />
+<Button
+    android:id="@+id/cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text="Cancel"
+    android:textStyle="bold"
+    android:fontFamily="@font/asap_1"
+    android:backgroundTint="@color/error"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="35dp"
+    app:layout_constraintTop_toBottomOf="@+id/names_list"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintHeight_percent="0.1"
+    app:layout_constraintTop_toBottomOf="@+id/send"
+    >
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
