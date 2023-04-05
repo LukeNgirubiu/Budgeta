@@ -4,5 +4,5 @@ Budgeta is an appication that majorly provides personal budgeting, cash recordin
 2. Recording personal credits (From you and to you from lenders).
 3. Recording personal cash revenues and withdrawals.
 4. Analytics for both cash and credits
-5. Reminders on budgets expiry and spending remit.
+5. Reminders on budgets expiry and spending limit.
 6. Documentation on budgets and cash (csv, pdf and .xls).
